@@ -1,7 +1,8 @@
 import requests
 from datetime import datetime
 
-BOT_TOKEN = "TOKEN_WILL_BE_FROM_GITHUB_SECRET"
+import os
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 CHAT_ID = -1003809412436
 THREAD_ID = 5
