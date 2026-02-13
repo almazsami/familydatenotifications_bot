@@ -23,7 +23,7 @@ def reply(message_id):
         }
     )
 
-today = datetime.utcnow().strftime("%d.%m.%Y")
+today = datetime.utcnow().strftime("%d.%m.%y")
 
 updates = get_updates()
 
