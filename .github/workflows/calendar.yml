@@ -1,9 +1,11 @@
 name: Telegram Calendar Bot
 
+
 on:
   schedule:
     - cron: "0 6 * * *"   # 06:00 UTC = 09:00 GMT+3
-  workflow_dispatch:
+    - cron: "0 11 * * *"  # 11:00 UTC = 14:00 GMT+3
+  workflow_dispatch:      # для ручного запуска
 
 jobs:
   run-bot:
