@@ -19,7 +19,7 @@ def reply(message_id):
             "chat_id": CHAT_ID,
             "message_thread_id": THREAD_ID,
             "reply_to_message_id": message_id,
-            "text": "@almazsami @dinara.qwq"
+            "text": "@almazsami @dinaraqwq"
         }
     )
 
